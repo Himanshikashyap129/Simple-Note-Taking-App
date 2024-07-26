@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    background-color: #05488f;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  button[type="button"] {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .note-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+  
+  .note-item:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    opacity: 0.9;
+  }
+  
